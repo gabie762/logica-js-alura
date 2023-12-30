@@ -3,13 +3,14 @@ let mensagemDeVitoria = 'Parabains :)';
 let numeroMaximo = 500;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); //variável com o numero escolhido
 let tentativas = 1;
+console.log("alouuuu");
 console.log(numeroSecreto); //console.log é um comando que ajuda o desenvolvedor no código
 
 let chute;
-console.log('Valor do chute:', chute);
+//console.log('Valor do chute:', chute);
 
 //comparação número secreto
-console.log('Resultado da comparação:', chute == numeroSecreto);
+//console.log('Resultado da comparação:', chute == numeroSecreto);
 
 //Enquanto - loop de condição
 while(chute != numeroSecreto){
