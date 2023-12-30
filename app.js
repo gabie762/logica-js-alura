@@ -7,10 +7,6 @@ console.log("alouuuu");
 console.log(numeroSecreto); //console.log é um comando que ajuda o desenvolvedor no código
 
 let chute;
-//console.log('Valor do chute:', chute);
-
-//comparação número secreto
-//console.log('Resultado da comparação:', chute == numeroSecreto);
 
 //Enquanto - loop de condição
 while(chute != numeroSecreto){
@@ -30,9 +26,3 @@ while(chute != numeroSecreto){
 
 let palavraTentativa = tentativas > 1 ? ' tentativas' : ' tentativa';
 alert('Você descobriu o número secreto: '+ numeroSecreto + '! :)\n' + 'Foram ' + tentativas + palavraTentativa);
-
-// if(tentativas > 1){
-//     alert('Você descobriu o número secreto: '+ numeroSecreto + '! :)\n' + 'Foram ' + tentativas + ' tentativas');
-// } else{
-//     alert('Você descobriu o número secreto: '+ numeroSecreto + '! :)\n' + 'Foram ' + tentativas + ' tentativa');
-// }
