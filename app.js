@@ -1,8 +1,9 @@
 alert('Boas vindas ao jogo do número secreto'); //manda uma mensagem para o início da página
 let mensagemDeVitoria = 'Parabains :)';
-let numeroSecreto = parseInt(Math.random() * 100 + 1); //variável com o numero escolhido
+let numeroMaximo = 500;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); //variável com o numero escolhido
 let tentativas = 1;
-console.log(numeroSecreto) //console.log é um comando que ajuda o desenvolvedor no código
+console.log(numeroSecreto); //console.log é um comando que ajuda o desenvolvedor no código
 
 let chute;
 console.log('Valor do chute:', chute);
@@ -12,7 +13,7 @@ console.log('Resultado da comparação:', chute == numeroSecreto);
 
 //Enquanto - loop de condição
 while(chute != numeroSecreto){
-    chute = prompt('Escolha um número entre 1 e 100');  //uma mensagem com caixa de input do usuário
+    chute = prompt(`Escolha um número entre 1 e ${numeroMaximo}`);  //uma mensagem com caixa de input do usuário
     if (chute == numeroSecreto){
         break;
     } else {
